@@ -14,3 +14,5 @@ console.log(newFirstArray)
 //配列から特定の要素を見つけ出して、新たな配列に格納する
 const filterArray = array.filter(item => item === 'ee')
 console.log(filterArray)
+
+
