@@ -29,6 +29,14 @@ array2.sort(function (a, b) {
   return 0
 }
 )
-
 // [ 'a', 'B', 'c', 'e', 'k' ]となる
 console.log(array2)
+
+
+
+//if文の簡素化ver
+let array3 = ['e', 'a', 'k', 'B', 'c'];
+array3.sort(function (a, b) {
+  return a.toLowerCase() > b.toLowerCase() ? 1 : -1
+})
+console.log(array3)
