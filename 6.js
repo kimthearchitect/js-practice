@@ -7,19 +7,19 @@
 
 //  //2
 //  if(x === undefined){
-//   ???
+//   ???
 //  }
 
 //変数xが定義されていない場合上の1、2は実行されますか?
 
 console.log(typeof x)
-//undefinedになる
+//undefinedになる
 if (typeof x === 'undefined') {
   console.log('true')
 }
 //よって１はtrueなので実行される
 
-
+console.log(x)
 if (x === 'undefined') {
   console.log('true')
 }

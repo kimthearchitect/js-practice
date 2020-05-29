@@ -1,5 +1,6 @@
 //Q.8 for in 文の使用
 
+
 // const obj = {
 //  key: 'aa',
 //  key2: 'bb'
@@ -19,8 +20,6 @@ for (item in obj) {
 
 //Object.keys とObject.valuesを使用すればobjectからarrayに変換できる
 const key = Object.keys(obj)
+console.log(key)
 const value = Object.values(obj)
-
-
-
-
+console.log(value)
